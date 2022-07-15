@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.btp-navbar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 530;
+    font-size: large;
+    text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
+}
+
+.btp-motto { 
+    position: absolute;
+    z-index: 12;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#motto-text {
+    color:#fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
+    font-size: 3.5em;
+}
+
+.carousel-inner > .item > img {
+    max-width:400px;
+    max-height:250px;
+}
