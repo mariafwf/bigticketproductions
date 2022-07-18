@@ -10,7 +10,7 @@ body {
     align-items: center;
 }
 
-.inner {
+.navbar-mobile-contents {
     position: relative;
 }
 
@@ -27,12 +27,12 @@ body {
     font-size: larger;
 }
 
-#logo {
+#navbar-logo {
     width: 25;
     height: 10;
 }
 
-.btp-motto { 
+.motto { 
     position: absolute;
     z-index: 12;
     top: 25%;
@@ -90,7 +90,7 @@ body {
     #navbar-title {
         font-size: medium;
     }
-    #logo {
+    #navbar-logo {
         width: 45;
         height: 30;
     }
@@ -115,7 +115,7 @@ body {
     #motto-text {
         font-size: 35px;
     }
-    .logo-text {
+    #logo-text {
         display: none;
     }
     .btp-footer {
@@ -133,7 +133,7 @@ body {
         display: none;
     }
     #navbar-title {
-        font-size: small;
+        font-size: medium;
         float: none;
         width: 100%;
     }
