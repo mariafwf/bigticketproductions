@@ -1,9 +1,9 @@
 body {
     background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navbar-mobile {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 530;
     font-size: smaller;
     text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
@@ -15,8 +15,8 @@ body {
 }
 
 .navbar-desktop {
+    background-color: black;
     display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 530;
     font-size: medium;
     text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
@@ -43,14 +43,34 @@ body {
 
 #motto-text {
     color:#fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
+    text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px 3px rgb(7, 11, 127), 4px 4px 4px rgb(226, 205, 19);
     font-size: 60px;
 }
 
 .carousel-inner > .item > img {
     max-width: 400px;
     max-height: 250px;
+}
+
+.about-us {
+    color: #edf0ef;
+    background-color: black;
+    font-weight: 50;
+    font-size: 18px;
+}
+
+.about-us > div > h1 {
+    text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px 3px rgb(7, 11, 127), 4px 4px 4px rgb(226, 205, 19);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#btn-mailing {
+    box-shadow: 0px 0px 8px rgba(255,255,255,0.7), 0px 0px 4px rgb(7, 11, 127);
+}
+
+#btn-maizepages {
+    box-shadow: 0px 0px 8px rgba(255,255,255,0.7), 0px 0px 4px rgb(226, 205, 19);
 }
 
 .btp-footer {
