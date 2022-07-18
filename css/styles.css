@@ -2,17 +2,40 @@ body {
     background-color: black;
 }
 
-.btp-navbar {
+.navbar-mobile {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 530;
-    font-size: large;
+    font-size: smaller;
     text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
+    align-items: center;
+}
+
+.inner {
+    position: relative;
+}
+
+.navbar-desktop {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 530;
+    font-size: medium;
+    text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
+    align-items: center;
+}
+
+#navbar-title {
+    font-size: larger;
+}
+
+#logo {
+    width: 25;
+    height: 10;
 }
 
 .btp-motto { 
     position: absolute;
     z-index: 12;
-    top: 20%;
+    top: 25%;
     left: 0;
     width: 100%;
     text-align: center;
@@ -22,10 +45,107 @@ body {
     color:#fff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
-    font-size: 3.5em;
+    font-size: 60px;
 }
 
 .carousel-inner > .item > img {
     max-width: 400px;
     max-height: 250px;
+}
+
+.btp-footer {
+    font-size: 15px;
+}
+
+/* media queries */
+
+@media (min-width: 1201px) {
+    .navbar-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .navbar-mobile {
+        display: none;
+    }
+    .navbar-desktop {
+        font-size: medium;
+    }
+    #navbar-title {
+        font-size: larger;
+    }
+    #motto-text {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 799px) and (max-width: 992px) {
+    .navbar-mobile {
+        display: none;
+    }
+    .navbar-desktop {
+        font-size: small;
+    }
+    #navbar-title {
+        font-size: medium;
+    }
+    #logo {
+        width: 45;
+        height: 30;
+    }
+    #motto-text {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 798px) {
+    .navbar-mobile {
+        display: none;
+    }
+    .navbar-desktop {
+        font-size: medium;
+    }
+    #navbar-title {
+        font-size: small;
+    }
+    .navbar-icons {
+        display: none;
+    }
+    #motto-text {
+        font-size: 35px;
+    }
+    .logo-text {
+        display: none;
+    }
+    .btp-footer {
+        font-size: 12px;
+        padding: 20px;
+    }
+    .footer-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .navbar-desktop {
+        display: none;
+    }
+    #navbar-title {
+        font-size: small;
+        float: none;
+        width: 100%;
+    }
+    #motto-text {
+        font-size: 25px;
+    }
+    .btp-footer {
+        font-size: 10px;
+        padding: 20px;
+    }
+    .footer-icon {
+        width: 15px;
+        height: 15px;
+    }
 }
