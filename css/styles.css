@@ -8,6 +8,7 @@ body {
     font-size: smaller;
     text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
     align-items: center;
+    box-shadow: 0px 0px 3px rgba(252, 249, 249, 0.714);
 }
 
 .navbar-mobile-contents {
@@ -21,6 +22,7 @@ body {
     font-size: medium;
     text-shadow: 0px 0px 8px rgba(255,255,255,0.7), 3px 3px black;
     align-items: center;
+    box-shadow: 0px 0px 3px rgba(252, 249, 249, 0.714);
 }
 
 #navbar-title {
@@ -43,7 +45,7 @@ body {
 
 #motto-text {
     color: white;
-    text-shadow: 2px 2px 3px rgb(226, 205, 19), 5px 5px 5px rgb(7, 11, 127);
+    text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.767), 3px 3px 5px rgb(7, 11, 127);
     font-size: 70px;
 }
 
@@ -59,38 +61,69 @@ body {
 }
 
 .main-section > div > h1 {
-    text-shadow: 2px 2px 3px rgb(226, 205, 19), 5px 5px 5px rgb(7, 11, 127);
+    text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.767), 3px 3px 5px rgb(7, 11, 127);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.main-section > h1 {
+    text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.767), 3px 3px 5px rgb(7, 11, 127);
     font-weight: bold;
     font-size: 35px;
 }
 
 #btn-mailing {
-    box-shadow: 0px 0px 8px rgba(255,255,255,0.7), 0px 0px 4px rgb(7, 11, 127);
+    box-shadow: 0px 0px 8px rgba(255,255,255,0.7), 0px 0px 4px rgba(7, 11, 127, 0.717);
 }
 
 #btn-maizepages {
-    box-shadow: 0px 0px 8px rgba(255,255,255,0.7), 0px 0px 4px rgb(226, 205, 19);
+    box-shadow: 0px 0px 8px rgba(255,255,255,0.7), 0px 0px 4px rgba(226, 205, 19, 0.714);
 }
 
+.card {
+    background-color: black;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 25px rgba(53, 52, 52, 0.7), 3px 3px black;
+    width: 354px;
+}
+
+.card-img {
+    width: 270px;
+}
+
+
 .team-name {
-    color: black;
+    color: rgb(228, 224, 224);
     font-size: 22px;
     font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(255,255,255,0.7), 3px 3px black;
 }
 
 .team-pos {
-    color: black;
+    color: rgb(176, 171, 171);
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 200;
 }
 
 .team-description {
-    color: black;
-    font-size: 14px;
+    color: rgb(228, 224, 224);
+    font-size: 13px;
+    font-weight: 100;
 }
 
-.btp-footer {
-    font-size: 15px;
+.team-labels {
+    color: rgb(228, 224, 224);
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(255,255,255,0.7), 3px 3px black;
+}
+
+.footer-container {
+    font-size: 12px;
+}
+
+.footer-link {
+    text-decoration: underline;
 }
 
 /* media queries */
@@ -154,13 +187,19 @@ body {
     #logo-text {
         display: none;
     }
-    .btp-footer {
+    .footer-container {
         font-size: 12px;
         padding: 20px;
     }
     .footer-icon {
         width: 15px;
         height: 15px;
+    }
+    .card {
+        width: 50%;
+    }
+    .card-img-top {
+        height: 50%;
     }
 }
 
@@ -176,7 +215,7 @@ body {
     #motto-text {
         font-size: 25px;
     }
-    .btp-footer {
+    .footer-container {
         font-size: 10px;
         padding: 20px;
     }
