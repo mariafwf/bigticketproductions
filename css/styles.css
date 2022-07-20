@@ -47,6 +47,7 @@ body {
     color: white;
     text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.767), 3px 3px 5px rgb(7, 11, 127);
     font-size: 70px;
+    font-weight: 650;
 }
 
 .carousel-inner > div > img {
@@ -125,6 +126,10 @@ body {
 .footer-link {
     text-decoration: underline;
 }
+
+hr.solid {
+    border-top: 1px solid rgb(101, 97, 97);
+  }
 
 /* media queries */
 
