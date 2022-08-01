@@ -88,6 +88,11 @@ body {
     width: 354px;
 }
 
+.pseudo-card {
+    background-color: black;
+    width: 354px;  
+}
+
 .card-img {
     width: 270px;
 }
@@ -112,11 +117,17 @@ body {
     font-weight: 100;
 }
 
+.pseudo-description {
+    color: rgb(228, 224, 224);
+    font-size: 14px;
+    font-weight: 100;
+}
+
 .team-labels {
     color: rgb(228, 224, 224);
     font-size: 13px;
     font-weight: bold;
-    text-shadow: 0px 0px 3px rgba(255,255,255,0.7), 3px 3px black;
+    text-shadow: 0px 0px 3px rgba(238, 236, 236, 0.52), 3px 3px black;
 }
 
 .footer-container {
