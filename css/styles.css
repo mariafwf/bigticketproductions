@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 #learn-more {
@@ -62,18 +62,18 @@ body {
 .main-section {
     color: #edf0ef;
     background-color: black;
-    font-weight: 50;
+    font-weight: 40;
     font-size: 18px;
 }
 
 .main-section > div > h1 {
-    text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.767), 3px 3px 5px rgb(7, 11, 127);
+    text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.527), 3px 3px 5px rgba(7, 11, 127, 0.774);
     font-weight: bold;
     font-size: 35px;
 }
 
 .main-section > h1 {
-    text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.767), 3px 3px 5px rgb(7, 11, 127);
+    text-shadow: 1px 1px 4px rgba(226, 205, 19, 0.527), 3px 3px 5px rgba(7, 11, 127, 0.774);
     font-weight: bold;
     font-size: 35px;
 }
@@ -101,7 +101,6 @@ body {
 .card-img {
     width: 270px;
 }
-
 
 .team-name {
     color: rgb(228, 224, 224);
