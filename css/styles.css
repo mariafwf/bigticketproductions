@@ -57,7 +57,7 @@ body {
 
 #motto-text {
     color: white;
-    text-shadow: 0px 0px 6px rgba(6, 21, 104, 0.684);
+    text-shadow: 0px 0px 8px rgba(81, 3, 126, 0.837);
     font-size: 90px;
     font-weight: 650;
     transform: scale(0.94);
@@ -110,7 +110,7 @@ animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
     color: #edf0ef;
     background-color: black;
     font-weight: 40;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #about {
@@ -130,10 +130,10 @@ animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 .main-section > h1 {
-    text-shadow: 0px 0px 8px rgba(59, 3, 91, 0.837);
+    text-shadow: 0px 0px 8px rgba(111, 4, 173, 0.837);
     font-weight: bold;
     font-size: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 p > span {
