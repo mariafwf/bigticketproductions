@@ -1,4 +1,5 @@
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.css";
 
 import { Link } from 'react-router-dom';
 
@@ -31,10 +32,10 @@ export default function MobileNavbar() {
             <Link className="nav-link text-light" to="/team">Team</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-light" href="/gallery">Gallery</Link>
+            <Link className="nav-link text-light" to="/gallery">Gallery</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-light" href="/contact">Contact</Link>
+            <Link className="nav-link text-light" to="/contact">Contact</Link>
           </li>
         </ul>
       </div>

@@ -1,7 +1,20 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
 
 import { Helmet } from "react-helmet";
 import { MemberCard } from "../templates/MemberCard";
+
+import Dillon from "../assets/img/board/dillon.jpeg";
+import Avalon from "../assets/img/board/avalon.jpeg";
+import Eli from "../assets/img/board/eli.jpeg";
+import Ava from "../assets/img/board/ava.jpeg";
+import Christian from "../assets/img/board/christian.jpeg";
+import Maria from "../assets/img/board/maria.jpeg";
+import Jackie from "../assets/img/board/jackie.jpeg";
+import Carly from "../assets/img/board/carly.jpg";
+import Thomas from "../assets/img/board/thomas.jpeg";
+import Jocelyn from "../assets/img/board/jocelyn.jpeg";
+import Ella from "../assets/img/board/ella.jpeg";
 
 export default function TeamPage() {
   return (
@@ -14,7 +27,7 @@ export default function TeamPage() {
         <div className="row container mx-auto mt-4">
           <MemberCard
             name="Dillon Hong"
-            img="../img/board/dillon.jpeg"
+            img={Dillon}
             position="President"
             year="Senior"
             hometown="Rochester Hills, MI"
@@ -26,7 +39,7 @@ export default function TeamPage() {
           ></MemberCard>
           <MemberCard
             name="Avalon Lebenthal"
-            img="../img/board/avalon.jpeg"
+            img={Avalon}
             position="VP of Operations"
             year="Junior"
             hometown="Pawling, NY"
@@ -39,7 +52,7 @@ export default function TeamPage() {
           ></MemberCard>
           <MemberCard
             name="Eli Gordon"
-            img="../img/board/eli.jpeg"
+            img={Eli}
             position="VP of Marketing"
             year="Senior"
             hometown="Campbell, CA"
@@ -54,7 +67,7 @@ export default function TeamPage() {
         <div className="row container mx-auto mt-4">
           <MemberCard
             name="Ava Meesseman"
-            img="../img/board/ava.jpeg"
+            img={Ava}
             position="VP of Finance"
             year="Sophomore"
             hometown="Ferndale, MI"
@@ -66,7 +79,7 @@ export default function TeamPage() {
           ></MemberCard>
           <MemberCard
             name="Christian Sauer"
-            img="../img/board/christian.jpeg"
+            img={Christian}
             position="Director of Talent"
             year="Junior"
             hometown="Winchester, MA"
@@ -79,7 +92,7 @@ export default function TeamPage() {
           ></MemberCard>
           <MemberCard
             name="Maria Figueiredo"
-            img="../img/board/maria.jpeg"
+            img={Maria}
             position="Director of Internal Relations"
             year="Sophomore"
             hometown="São Paulo, Brazil"
@@ -93,7 +106,7 @@ export default function TeamPage() {
         <div className="row container mx-auto mt-4">
           <MemberCard
             name="Jackie Jurasek"
-            img="../img/board/jackie.jpeg"
+            img={Jackie}
             position="Director of Member Engagement"
             year="Sophomore"
             hometown="Ann Arbor, MI"
@@ -105,7 +118,7 @@ export default function TeamPage() {
           ></MemberCard>
           <MemberCard
             name="Carly Gesell"
-            img="../img/board/carly.jpeg"
+            img={Carly}
             position="Director of Digital Marketing"
             year="Sophomore"
             hometown="Grosse Point, MI"
@@ -118,7 +131,7 @@ export default function TeamPage() {
           ></MemberCard>
           <MemberCard
             name="Thomas Cuddy"
-            img="../img/board/thomas.jpeg"
+            img={Thomas}
             position="Director of Ground Marketing"
             year="Sophomore"
             hometown="Alexandria, VA"
@@ -132,7 +145,7 @@ export default function TeamPage() {
         <div className="row container mx-auto mt-4">
           <MemberCard
             name="Jocelyn Brown"
-            img="../img/board/jocelyn.jpeg"
+            img={Jocelyn}
             position="Director of External Relations"
             year="Senior"
             hometown="Canton, MI"
@@ -144,7 +157,7 @@ export default function TeamPage() {
           ></MemberCard>
           <MemberCard
             name="Ella Canavan"
-            img="../img/board/ella.jpeg"
+            img={Ella}
             position="Director of Sponsorship"
             year="Junior"
             hometown="Buffalo, NY"

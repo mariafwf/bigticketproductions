@@ -1,4 +1,6 @@
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.css";
+import Logo from '../assets/img/logo.jpeg';
 
 import { Link } from 'react-router-dom';
 
@@ -9,7 +11,7 @@ export default function DesktopNavbar() {
         <a id="navbar-title" className="navbar-brand text-light" href="index.html">
           <img
             id="navbar-logo"
-            src="img/logo.jpeg"
+            src={Logo}
             width="65"
             height="50"
             className="d-inline-block pr-3"
@@ -27,10 +29,10 @@ export default function DesktopNavbar() {
             <Link className="nav-link text-light" to="/team">Team</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-light" href="/gallery">Gallery</Link>
+            <Link className="nav-link text-light" to="/gallery">Gallery</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link text-light" href="/contact">Contact</Link>
+            <Link className="nav-link text-light" to="/contact">Contact</Link>
           </li>
           <li className="navbar-icons">
             <a href="https://www.instagram.com/bigticketumich/" target="_blank" rel="noreferrer">

@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.css";
 
 export function MemberCard(props) {
     return (

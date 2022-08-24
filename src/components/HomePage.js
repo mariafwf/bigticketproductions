@@ -1,9 +1,14 @@
 import React from "react";
-
+import "bootstrap/dist/css/bootstrap.css";
 import { Helmet } from "react-helmet";
 
-export default function HomePage() {
+import PinkSweats from '../assets/img/pinksweats.jpeg';
+import BigSean from '../assets/img/bigsean.jpeg';
+import MacDeMarco from '../assets/img/macdemarco.jpeg';
+import BigSean2 from '../assets/img/bigsean2.jpeg';
+import Blackbear from '../assets/img/blackbear.jpeg';
 
+export default function HomePage() {
     return (
         <>
         <Helmet>
@@ -16,10 +21,8 @@ export default function HomePage() {
       >
         <div className="motto">
           <h1 id="motto-text">
-            <span>Your</span>
-            <span>Campus.</span><br/>
-            <span>Your</span>
-            <span>Entertainment.</span></h1>
+            <span>Your Campus.</span><br/>
+            <span>Your Entertainment.</span></h1>
         </div>
         <ol className="carousel-indicators">
           <li
@@ -37,35 +40,35 @@ export default function HomePage() {
           <div className="carousel-item active">
             <img
               className="d-block w-100"
-              src="./img/pinksweats.jpeg"
+              src={PinkSweats}
               alt="First slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="./img/bigsean3.jpeg"
+              src={BigSean}
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="./img/macdemarco.jpeg"
+              src={MacDeMarco}
               alt="Third slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="./img/bigsean2.jpeg"
+              src={BigSean2}
               alt="Fourth slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="./img/blackbear.jpeg"
+              src={Blackbear}
               alt="Fifth slide"
             />
           </div>
@@ -77,7 +80,6 @@ export default function HomePage() {
           data-slide="prev"
         >
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
         </a>
         <a
           className="carousel-control-next"
@@ -86,7 +88,6 @@ export default function HomePage() {
           data-slide="next"
         >
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
         </a>
       </div>
       <div id="about" className="main-section container col-12 text-center">
