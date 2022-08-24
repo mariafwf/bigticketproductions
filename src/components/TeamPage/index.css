@@ -1,0 +1,99 @@
+.team-container {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.row {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.card {
+  background-color: black;
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 25px rgba(53, 52, 52, 0.7), 3px 3px black;
+  box-shadow: 0px 0px 70px rgba(74, 1, 116, 0.463);
+  width: 380px;
+  margin: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pseudo-card {
+  background-color: black;
+  width: 354px;
+  margin: 25px;
+  padding: 45px;
+}
+
+.card-img {
+  width: 270px;
+  margin-top: 25px;
+}
+
+.team-item {
+    margin-bottom: 15px;
+}
+
+.team-name {
+  color: rgb(228, 224, 224);
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 0px 0px 8px rgba(144, 6, 224, 0.837);
+}
+
+.team-pos {
+  color: rgb(176, 171, 171);
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.team-description {
+  color: rgb(228, 224, 224);
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.pseudo-description {
+  color: rgb(228, 224, 224);
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.team-labels {
+  color: rgb(228, 224, 224);
+  font-size: 14px;
+  font-weight: 700;
+  text-shadow: 0px 0px 8px rgba(144, 6, 224, 0.922);
+  margin-right: 10px;
+}
+
+.logo {
+    margin: 50px;
+}
+
+#learn-more {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* media queries */
+
+@media (min-width: 1201px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 799px) and (max-width: 992px) {
+}
+
+@media (min-width: 577px) and (max-width: 798px) {
+}
+
+@media (max-width: 576px) {
+}

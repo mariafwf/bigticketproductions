@@ -9,11 +9,6 @@ body {
   word-spacing: 1px;
 }
 
-#learn-more {
-  color: #fff;
-  text-decoration: underline;
-}
-
 .main-section {
   color: #edf0ef;
   background-color: black;
@@ -34,78 +29,6 @@ p > span {
   font-size: 28px;
   color: rgb(162, 56, 224);
   text-shadow: 0px 0px 2px #000, 0px 0px 4px rgba(255, 255, 255, 0.318);
-}
-
-#bg-team {
-  background-image: "img/bgteam.jpg";
-}
-
-.gallery-year {
-  color: rgb(228, 224, 224);
-  font-size: 26px;
-  font-weight: bold;
-  text-shadow: 0px 0px 8px rgba(144, 6, 224, 0.837);
-}
-
-.card {
-  background-color: black;
-  backdrop-filter: blur(20px);
-  box-shadow: 0px 0px 25px rgba(53, 52, 52, 0.7), 3px 3px black;
-  box-shadow: 0px 0px 10px rgba(99, 7, 152, 0.837);
-  width: 354px;
-}
-
-.pseudo-card {
-  background-color: black;
-  width: 354px;  
-}
-
-.card-img {
-  width: 270px;
-}
-
-.team-name {
-  color: rgb(228, 224, 224);
-  font-size: 22px;
-  font-weight: bold;
-  text-shadow: 0px 0px 8px rgba(144, 6, 224, 0.837);
-}
-
-.team-pos {
-  color: rgb(176, 171, 171);
-  font-size: 16px;
-  font-weight: 200;
-}
-
-.team-description {
-  color: rgb(228, 224, 224);
-  font-size: 13px;
-  font-weight: 100;
-}
-
-.pseudo-description {
-  color: rgb(228, 224, 224);
-  font-size: 14px;
-  font-weight: 100;
-}
-
-.team-labels {
-  color: rgb(228, 224, 224);
-  font-size: 16px;
-  font-weight: bold;
-  text-shadow: 0px 0px 8px rgba(144, 6, 224, 0.922);
-}
-
-.footer-container {
-  font-size: 12px;
-}
-
-.footer-link {
-  text-decoration: underline;
-}
-
-footer > hr {
-  border-top: 1px solid rgb(101, 97, 97);
 }
 
 /* media queries */

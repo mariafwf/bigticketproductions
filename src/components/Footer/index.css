@@ -1,0 +1,11 @@
+.footer-container {
+  font-size: 12px;
+}
+
+.footer-link {
+  text-decoration: underline;
+}
+
+footer > hr {
+  border-top: 1px solid rgb(101, 97, 97);
+}

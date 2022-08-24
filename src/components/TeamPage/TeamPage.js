@@ -16,6 +16,7 @@ import Carly from "../../assets/img/board/carly.jpg";
 import Thomas from "../../assets/img/board/thomas.jpeg";
 import Jocelyn from "../../assets/img/board/jocelyn.jpeg";
 import Ella from "../../assets/img/board/ella.jpeg";
+import UACLogo from "../../assets/img/uac.png";
 
 export default function TeamPage() {
   return (
@@ -23,9 +24,8 @@ export default function TeamPage() {
     <Helmet>
         <title>Big Ticket Productions | Team</title>
     </Helmet>
-    <div className="main-section container col-12 text-center justify-content-center">
+    <div className="team-container row">
         <h1>Team</h1>
-        <div className="row container mx-auto mt-4">
           <MemberCard
             name="Dillon Hong"
             img={Dillon}
@@ -64,8 +64,6 @@ export default function TeamPage() {
             spotify="#"
             linkedin="#"
           ></MemberCard>
-        </div>
-        <div className="row container mx-auto mt-4">
           <MemberCard
             name="Ava Meesseman"
             img={Ava}
@@ -103,8 +101,6 @@ export default function TeamPage() {
             spotify="https://open.spotify.com/user/mafefigueiredo?si=d055d283126f4012"
             linkedin="https://www.linkedin.com/in/mariafig/"
           ></MemberCard>
-        </div>
-        <div className="row container mx-auto mt-4">
           <MemberCard
             name="Jackie Jurasek"
             img={Jackie}
@@ -142,8 +138,6 @@ export default function TeamPage() {
             spotify="#"
             linkedin="#"
           ></MemberCard>
-        </div>
-        <div className="row container mx-auto mt-4">
           <MemberCard
             name="Jocelyn Brown"
             img={Jocelyn}
@@ -168,13 +162,13 @@ export default function TeamPage() {
             spotify="#"
             linkedin="#"
           ></MemberCard>
-          <div className="pseudo-card m-2 pl-4 pr-4 pt-5 mt-lg-5">
+          <div className="pseudo-card">
             <img
-              className="rounded mx-auto d-block mt-lg-5"
-              src="../img/uac.png"
+              className="rounded mx-auto d-block logo"
+              src={UACLogo}
               alt="UAC Logo"
-              width="100"
-              height="40"
+              width="200"
+              height="80"
             ></img>
             <div className="card-body">
               <p>
@@ -193,10 +187,9 @@ export default function TeamPage() {
                     Learn more
                   </a>
                 </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
       </div>
     </>
   );
