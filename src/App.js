@@ -5,12 +5,12 @@ import './App.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import DesktopNavbar from './components/DesktopNavbar';
-import HomePage from './components/HomePage';
-import TeamPage from './components/TeamPage';
-import GalleryPage from './components/GalleryPage';
-import ContactPage from './components/ContactPage';
-import Footer from './components/Footer';
+import DesktopNavbar from './components/Navbar/DesktopNavbar';
+import HomePage from './components/HomePage/HomePage';
+import TeamPage from './components/TeamPage/TeamPage';
+import GalleryPage from './components/GalleryPage/GalleryPage';
+import ContactPage from './components/ContactPage/ContactPage';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
     return (

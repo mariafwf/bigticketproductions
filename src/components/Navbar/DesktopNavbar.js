@@ -1,8 +1,9 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
-import Logo from '../assets/img/logo.jpeg';
-
 import { Link } from 'react-router-dom';
+
+import Logo from '../../assets/img/logo.jpeg';
+import './index.css'
 
 export default function DesktopNavbar() {
   return (
@@ -10,11 +11,10 @@ export default function DesktopNavbar() {
       <div className="col-2">
         <a id="navbar-title" className="navbar-brand text-light" href="index.html">
           <img
-            id="navbar-logo"
             src={Logo}
-            width="65"
-            height="50"
-            className="d-inline-block pr-3"
+            width={55}
+            height={55}
+            className="d-inline-block navbar-logo"
             alt="Logo"
           />
           <span id="logo-text" className="pt-1">Big Ticket Productions</span>

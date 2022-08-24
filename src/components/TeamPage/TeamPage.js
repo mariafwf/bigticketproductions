@@ -1,20 +1,21 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "./index.css";
 
 import { Helmet } from "react-helmet";
-import { MemberCard } from "../templates/MemberCard";
+import { MemberCard } from "./MemberCard";
 
-import Dillon from "../assets/img/board/dillon.jpeg";
-import Avalon from "../assets/img/board/avalon.jpeg";
-import Eli from "../assets/img/board/eli.jpeg";
-import Ava from "../assets/img/board/ava.jpeg";
-import Christian from "../assets/img/board/christian.jpeg";
-import Maria from "../assets/img/board/maria.jpeg";
-import Jackie from "../assets/img/board/jackie.jpeg";
-import Carly from "../assets/img/board/carly.jpg";
-import Thomas from "../assets/img/board/thomas.jpeg";
-import Jocelyn from "../assets/img/board/jocelyn.jpeg";
-import Ella from "../assets/img/board/ella.jpeg";
+import Dillon from "../../assets/img/board/dillon.jpeg";
+import Avalon from "../../assets/img/board/avalon.jpeg";
+import Eli from "../../assets/img/board/eli.jpeg";
+import Ava from "../../assets/img/board/ava.jpeg";
+import Christian from "../../assets/img/board/christian.jpeg";
+import Maria from "../../assets/img/board/maria.jpeg";
+import Jackie from "../../assets/img/board/jackie.jpeg";
+import Carly from "../../assets/img/board/carly.jpg";
+import Thomas from "../../assets/img/board/thomas.jpeg";
+import Jocelyn from "../../assets/img/board/jocelyn.jpeg";
+import Ella from "../../assets/img/board/ella.jpeg";
 
 export default function TeamPage() {
   return (

@@ -1,7 +1,9 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
-
 import { Link } from 'react-router-dom';
+
+import Logo from '../../assets/img/logo.jpeg';
+import './index.css'
 
 export default function MobileNavbar() {
   return (
@@ -13,7 +15,7 @@ export default function MobileNavbar() {
           <a id="navbar-title" className="text-light m-3" href="index.html">
             <img
               id="navbar-logo"
-              src="img/logo.jpeg"
+              src={Logo}
               width="55"
               height="40"
               className="d-inline-block pr-3"

@@ -2,11 +2,14 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Helmet } from "react-helmet";
 
-import PinkSweats from '../assets/img/pinksweats.jpeg';
-import BigSean from '../assets/img/bigsean.jpeg';
-import MacDeMarco from '../assets/img/macdemarco.jpeg';
-import BigSean2 from '../assets/img/bigsean2.jpeg';
-import Blackbear from '../assets/img/blackbear.jpeg';
+import "./index.js";
+import "./index.css";
+
+import PinkSweats from '../../assets/img/pinksweats.jpeg';
+import BigSean from '../../assets/img/bigsean.jpeg';
+import MacDeMarco from '../../assets/img/macdemarco.jpeg';
+import BigSean2 from '../../assets/img/bigsean2.jpeg';
+import Blackbear from '../../assets/img/blackbear.jpeg';
 
 export default function HomePage() {
     return (
@@ -15,26 +18,26 @@ export default function HomePage() {
             <title>Big Ticket Productions | Team</title>
         </Helmet>
         <div
-        id="carouselExampleIndicators"
+        id="homeCarousel"
         className="carousel slide"
         data-ride="carousel"
       >
-        <div className="motto">
+        <div id="motto-div">
           <h1 id="motto-text">
             <span>Your Campus.</span><br/>
             <span>Your Entertainment.</span></h1>
         </div>
         <ol className="carousel-indicators">
           <li
-            data-target="#carouselExampleIndicators"
+            data-target="#homeCarousel"
             data-slide-to="0"
             className="active"
           ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#homeCarousel" data-slide-to="1"></li>
+          <li data-target="#homeCarousel" data-slide-to="2"></li>
+          <li data-target="#homeCarousel" data-slide-to="3"></li>
+          <li data-target="#homeCarousel" data-slide-to="4"></li>
+          <li data-target="#homeCarousel" data-slide-to="5"></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -75,7 +78,7 @@ export default function HomePage() {
         </div>
         <a
           className="carousel-control-prev"
-          href="#carouselExampleIndicators"
+          href="#homeCarousel"
           role="button"
           data-slide="prev"
         >
@@ -83,14 +86,14 @@ export default function HomePage() {
         </a>
         <a
           className="carousel-control-next"
-          href="#carouselExampleIndicators"
+          href="#homeCarousel"
           role="button"
           data-slide="next"
         >
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
         </a>
       </div>
-      <div id="about" className="main-section container col-12 text-center">
+      <div id="about" className="container col-12 text-center">
           <h1 className="pt-5 revealUp">About</h1>
           <div className="container">
           <p className="pl-lg-5 pl-md-4 pl-sm-1
