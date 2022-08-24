@@ -12,6 +12,8 @@ import MobileNavbar from './components/MobileNavbar';
 import DesktopNavbar from './components/DesktopNavbar';
 import HomePage from './components/HomePage';
 import TeamPage from './components/TeamPage';
+import GalleryPage from './components/GalleryPage';
+import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -22,6 +24,8 @@ export default function App() {
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/team' element={<TeamPage />} />
+                <Route path='/gallery' element={<GalleryPage />} />
+                <Route path='/contact' element={<ContactPage />} />
             </Routes>
             <Footer />
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
