@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import "./contact.css"
 
 import { Helmet } from "react-helmet";
 
@@ -9,7 +10,9 @@ export default function ContactPage() {
             <Helmet>
                 <title>Big Ticket Productions | Contact</title>
             </Helmet>
-            <div className="col-12 align-content-center justify-content-center text-center pb-4"><h1>Contact</h1></div>
+            <div className="text-center">
+                <h1>Contact</h1>
+                </div>
             <div className="row">
                 <div className="container col-6 text-center align-items-center align-content-center justify-content-center pt-5 pb-5">
                     <div className="container p-5">
@@ -21,22 +24,16 @@ export default function ContactPage() {
                                 <a href="mailto:btp.eboard22@umich.edu" className="main-section m-2">btp.eboard22@umich.edu</a>
                             </div>
                         </div>
-                        <div className="row align-items-center align-content-center justify-content-center">
-                            <div className="navbar-icons">
+                        <div className=" align-items-center align-content-center justify-content-center">
                                 <a href="https://www.instagram.com/bigticketumich/" target="_blank" rel="noreferrer">
                                     <img src="https://icon-library.com/images/instagram-icon-white-png/instagram-icon-white-png-26.jpg" alt="" width="50" height="50" className="m-3"></img>
                                 </a>
-                            </div>
-                            <div className="navbar-icons">
                                 <a href="https://web.facebook.com/bigticketproductions/" target="_blank" rel="noreferrer">
                                     <img src="https://pnggrid.com/wp-content/uploads/2021/04/facebook-white-circle-1024x1024.png" alt="" width="50" height="50" className="m-3"></img>
                                 </a>
-                            </div>
-                            <div className="navbar-icons">
                                 <a href="https://www.linkedin.com/company/big-ticket-productions-umich/" target="_blank" rel="noreferrer">
                                     <img src="https://www.pngkey.com/png/full/550-5502522_linkedin-icon-white-linkedin-white-icon-png.png" alt="" width="50" height="50" className="m-3"></img>
                                 </a>
-                            </div>
                         </div>
                     </div>
                 </div>

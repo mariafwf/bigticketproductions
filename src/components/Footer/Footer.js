@@ -1,19 +1,15 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "./index.css";
+import "./footer.css";
 
 export default function Footer() {
     return (
         <div className="container">
             <footer className="footer-container">
-                <hr className="mt-4 mb-3" />
-                <div className="row justify-content-center mt-3 pt-2">
+                <hr />
+                <div className="justify-content-center">
                     <p className="text-center text-muted">
-                        Copyright © 2022 Big Ticket Productions <br />
-                        Developed by
-                        <a className="footer-link text-muted" href="https://github.com/mariafwf" target="_blank" rel="noreferrer">
-                            Maria Figueiredo
-                        </a>
+                        Copyright © 2022 Big Ticket Productions
                     </p>
                 </div>
             </footer>

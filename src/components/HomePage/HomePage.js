@@ -3,13 +3,13 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Helmet } from "react-helmet";
 
 import "./index.js";
-import "./index.css";
+import "./home.css";
 
-import PinkSweats from '../../assets/img/pinksweats.jpeg';
-import BigSean from '../../assets/img/bigsean.jpeg';
-import MacDeMarco from '../../assets/img/macdemarco.jpeg';
-import BigSean2 from '../../assets/img/bigsean2.jpeg';
-import Blackbear from '../../assets/img/blackbear.jpeg';
+import PinkSweats from '../../assets/img/home/pinksweats.jpeg';
+import BigSean from '../../assets/img/home/bigsean.jpeg';
+import MacDeMarco from '../../assets/img/home/macdemarco.jpeg';
+import BigSean2 from '../../assets/img/home/bigsean2.jpeg';
+import Blackbear from '../../assets/img/home/blackbear.jpeg';
 
 export default function HomePage() {
     return (

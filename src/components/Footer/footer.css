@@ -1,5 +1,7 @@
 .footer-container {
   font-size: 12px;
+  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 .footer-link {
@@ -8,4 +10,6 @@
 
 footer > hr {
   border-top: 1px solid rgb(101, 97, 97);
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
