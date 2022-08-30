@@ -28,7 +28,7 @@ export function MemberCard(props) {
             <div className="card-body">
                 <h2 className="team-name">{props.name}</h2>
                 <h2 className="team-pos">{props.position}</h2>
-                <p>
+                <div>
                     <div className="team-item">
                         <span className="team-labels">Year</span>
                         <span className="team-description">{props.year}</span>
@@ -55,7 +55,7 @@ export function MemberCard(props) {
                         <span className="team-description">{props.song}</span>
                         <br></br>
                     </div>
-                </p>
+                </div>
                 <div className="justify-content-center pt-2">
                     <a href={props.instagram} target="_blank" rel="noreferrer">
                         <img src="https://icon-library.com/images/instagram-icon-white-png/instagram-icon-white-png-26.jpg"
