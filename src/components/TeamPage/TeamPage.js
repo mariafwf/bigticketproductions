@@ -108,7 +108,7 @@ export default function TeamPage() {
           img={Carly}
           position="Director of Digital Marketing"
           year="Sophomore"
-          hometown="Grosse Point, MI"
+          hometown="Grosse Pointe, MI"
           majors="Communication and Media"
           minors="Graphic Design"
           song="I Did Something Bad - Taylor Swift"
