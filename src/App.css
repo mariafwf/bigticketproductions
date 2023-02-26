@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'DM Sans';
+  font-family: 'Righteous';
   src: url(./assets/fonts/DMSans-Regular.ttf);
 }
 
 body {
   background-color: black;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Righteous', sans-serif;
   word-spacing: 1px;
 }
 

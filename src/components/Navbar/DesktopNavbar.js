@@ -12,12 +12,11 @@ export default function DesktopNavbar() {
         <a id="navbar-title" className="navbar-brand text-light" href="index.html">
           <img
             src={Logo}
-            width={55}
-            height={55}
+            width={60}
+            height={60}
             className="d-inline-block navbar-logo"
             alt="Logo"
           />
-          <span id="logo-text" className="pt-1">Big Ticket Productions</span>
         </a>
       </div>
       <div className="col-10 d-flex justify-content-end align-items-end">
@@ -51,10 +50,10 @@ export default function DesktopNavbar() {
               target="_blank" rel="noreferrer"
             >
               <img
-                src="https://pnggrid.com/wp-content/uploads/2021/04/facebook-white-circle-1024x1024.png"
+                src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-transparent-png-pictures-icons-and-21.png"
                 alt=""
-                width="20"
-                height="20"
+                width="30"
+                height="30"
                 className="m-3"
               />
             </a>
